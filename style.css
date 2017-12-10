@@ -1,0 +1,332 @@
+/* Header / Navigation Bar  */
+li {
+    float: right;
+    list-style-type: none;
+    display: inline;
+}
+
+li a {
+    display: block;
+    padding: 15px;
+    margin: 15px 0 0 0;
+    color: gray;
+    background-color: #ffffff;
+}
+
+li :visited {
+    color: #666666;
+}
+
+li :link {
+    text-decoration: none;
+}
+
+#active {
+    background-color: #4aaaa5;
+
+}
+
+li a:hover {
+    background-color: #4aaaa5;
+}
+
+.divider {
+    height: 18px;
+}
+
+.header {
+    top: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    height: 76px;
+    border-bottom: solid 1px gray;
+    background-color: #ffffff;
+}
+
+#header-bar {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name{
+    width: 200px;
+    color: white;
+    margin: 0;
+    background-color: #4aaaa5;
+    padding: 22px;
+    text-align: center;
+    top: 0;
+    position: absolute;
+    font-size: 2em;
+}
+
+
+/* Content Div */
+
+body {
+    margin: 0;
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/curls.png");    
+    background-size: cover;
+}
+
+.content {
+  width: 960px;
+  margin: 100px auto;
+}
+
+.bio-p {
+    padding: 5px 15px 15px 15px;
+    line-height: 2em;
+}
+
+.bio-img {
+    float: left;
+    padding: 15px;
+}
+
+.bio-div {
+    float: left;
+    width: 650px;
+    background: white;
+    padding: 0;
+}
+
+.sidebar {
+    float: right;
+    width: 270px;
+    background: white;
+    color: #4aaaa5;
+    font-size: 24px; 
+    text-align: center;   
+    padding: 10px 0 0 0;
+}
+
+/* Footer */
+.copyright {
+    text-align: center;
+    clear: both;
+    padding: 20px 0;
+    background-color: #666666;
+    color: rgb(165, 182, 182);
+    border-top: 5px solid #4aaaa5;
+    font-size: 10px;
+    width: 100%;
+    position: relative;
+    bottom: 0;
+}
+
+/* Positioning IDs for the footers on each page */
+
+#index-footer{
+    bottom: 0;
+    position: absolute;
+}
+
+#port-footer {
+    bottom: 0;
+    position: absolute;
+}
+
+#contact-footer {
+    bottom: 0;
+    position: absolute;
+}
+
+
+#index-bio-div-header {
+    padding: 0 15px;
+    color: #4aaaa5;
+    font-size: 28px;
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+
+div hr {
+    width: 630px;   
+}
+
+.sidebar hr{
+    width: 260px;
+}
+
+#index-bio-div img {
+    float: left;
+    padding: 20px 15px;
+    width: 30%;
+}
+
+.sidebar img {
+    float: left; 
+    width: 25%;
+    padding: 0 4.16% 10px 4.16%;
+}
+
+.pad {
+    padding: 7px;
+}
+
+#index-bio-div p {
+    line-height: 200%;
+    padding: 0 15px;
+}
+
+
+
+/* =================================== Contact Page ===============================  */
+#contact{
+    padding: 0 15px;
+    color: #4aaaa5;
+    font-size: 28px;
+    margin: 20px 20px;
+    font-family: Arial, Helvetica, sans-serif;  
+}
+
+
+ #contact-hr {
+    width: 621.5px; 
+    margin: 1em 0 1em 10px; 
+ }
+
+form {
+    float: left;
+    margin: 0 0 50px 0;   
+}
+
+label {
+    margin: 0 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+input {
+    width: 95%;
+    padding: 10px 0;
+    margin: 1em 0 1em 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+textarea {
+    margin: 1em 0 1em 10px;
+    width: 95%;
+    height: 157px;
+}
+
+.mainForm {
+    width:650px;
+    background-color: white;
+}
+
+.button {
+    background-color: #4aaaa5;
+    padding: 10px 15px;
+    text-align: center;
+    color: white;
+    margin: 1em 1em;
+    font-size: 16px;
+}
+
+
+/* ===================================== Portfolio ============================= */
+
+#port-bio {
+    margin: 0 0 50px 0;
+}
+
+
+/* Make class for images */
+
+.portfolio-image{
+    float: left;
+    width: 40%;
+    margin: 20px 5%;
+    padding: 0;
+}
+
+p a:visited {
+    color: #666666;
+}
+
+p a:link {
+    text-decoration: none;
+}
+
+p a:hover {
+    background-color: #674aaa;
+}
+
+p a {
+    display: block;
+    padding: 13px 0 14px 0;
+    color: gray;
+    background-color: rgba(57, 168, 161, .5);
+    width: 260px;
+}
+
+#pong-img{
+    width: 260px;
+    height: 260px;
+}
+
+#text-box1 {
+    color: white;
+    padding: 20px 0 35px 0;
+    position: absolute;
+    top: 199px;
+    right: 825px;
+    bottom: 200px;
+    left: 33px;
+    text-align: center;
+}
+
+#text-box2 {
+    color: white;
+    padding: 20px 0 35px 0;
+    position: absolute;
+    top: 199px;
+    right: 500px;
+    bottom: 695px;
+    left: 357px;
+    text-align: center;
+}
+
+#text-box3 {
+    color: white;
+    padding: 20px 0 35px 0;
+    position: absolute;
+    top: 499px;
+    right: 825px;
+    bottom: 200px;
+    left: 32px;
+    text-align: center;
+}
+
+#text-box4 {
+    color: white;
+    padding: 20px 0 35px 0;
+    position: absolute;
+    top: 499px;
+    right: 500px;
+    bottom: 200px;
+    left: 357px;
+    text-align: center;
+}
+
+#text-box5 {
+    color: white;
+    padding: 20px 0 35px 0;
+    position: absolute;
+    top: 799px;
+    right: 825px;
+    bottom: 200px;
+    left: 32px;
+    text-align: center;
+}
+
+.relative {
+    position: relative;
+    left: 0;
+}

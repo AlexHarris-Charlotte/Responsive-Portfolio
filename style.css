@@ -68,7 +68,7 @@ li a:hover {
 body {
     margin: 0;
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/curls.png");    
-    background-size: cover;
+    background-size: ;
 }
 
 .content {
@@ -187,7 +187,7 @@ div hr {
 
 
  #contact-hr {
-    width: 621.5px; 
+    max-width: 621.5px; 
     margin: 1em 0 1em 10px; 
  }
 
@@ -331,6 +331,8 @@ p a {
     left: 0;
 }
 
+/* Media Queries */
+
 
 @media screen and (max-width: 980px){
 
@@ -352,6 +354,8 @@ p a {
         padding: 0;
         margin-bottom: 20px;
     }
+
+  
 
     .bio-img {
         float: none;
@@ -375,6 +379,72 @@ p a {
     ul {
     list-style: none;
     float: right;
+    }
+
+
+    /* Contact page */
+
+    .mainForm {
+        width: 400px;
+    }
+
+    #contact-hr {
+        margin: 1em 1em 1em 10px;
+    }
+
+    /* Portfolio Page */
+
+    .portfolio-image{
+        float: none;
+        margin: 10px auto;
+        display: block;
+        width: auto;
+    }
+
+    #pong-img{
+        width: 225px;
+        height: 225px;
+    }
+
+    p a {
+        width: 225px;
+    }
+
+    /* Textbox link overlays */
+
+    #text-box1 {
+        top: 160px;
+        right: 825px;
+        bottom: 200px;
+        left: 87px;
+    }
+
+    #text-box2 {
+        top: 162px;
+        right: 500px;
+        bottom: 695px;
+        left: 87px;
+    }
+
+    #text-box3 {
+        top: 162px;
+        right: 825px;
+        bottom: 214px;
+        left: 88px;
+    }
+
+    #text-box4 {
+        top: 162px;
+        right: 500px;
+        bottom: 509px;
+        left: 88px;
+    }
+
+    #text-box5 {
+        top: 162px;
+        right: 825px;
+        bottom: 200px;
+        left: 88px;
     }
 
 }
@@ -402,6 +472,10 @@ p a {
         margin-bottom: 20px;
     }
 
+    #index-bio-div-header {
+        padding-top: 20px;
+    }
+
     .bio-img {
         float: left;
         width: 260px;
@@ -427,12 +501,12 @@ p a {
     float: right;
     }
 
-    #side-p {
+    .side-p {
         text-align: left;
         margin-left: 10px;
     }
 
-    #side-hr {
+    .side-hr {
         margin-left: 10px;
     }
 
@@ -441,7 +515,71 @@ p a {
         padding: 0 2.16% 5px 2.16%;
     }
 
+    /* Contact Page */
+
+    .mainForm {
+        width: 100%;
+        margin-bottom: 65px;
+    }
     
+    /* Portfolio Page */
+
+    .portfolio-image{
+        float: left;
+        width: 40%;
+        margin: 20px 5%;
+        padding: 0;
+    }
+
+    p a {
+        width: 250px;
+    }
+
+    .port-div {
+        height: 935px;
+    }
+
+    #pong-img{
+        width: 250px;
+        height: 250px;
+    }
+
+    #text-box1 {
+        top: 207px;
+        right: 825px;
+        bottom: 200px;
+        left: 31px;
+    }
+    
+    #text-box2 {
+        top: 207px;
+        right: 500px;
+        bottom: 695px;
+        left: 343px;
+    }
+    
+    #text-box3 {
+        top: 497px;
+        right: 825px;
+        bottom: 200px;
+        left: 31px;
+    }
+    
+    #text-box4 {
+        top: 497px;
+        right: 500px;
+        bottom: 200px;
+        left: 343px;
+    }
+    
+    #text-box5 {
+        top: 787px;
+        right: 825px;
+        bottom: 200px;
+        left: 31px;
+    }
+
+
 }
 
 
@@ -509,12 +647,12 @@ p a {
         width: 33.3%;
     }
 
-    #side-p {
+    .side-p {
         text-align: left;
         margin-left: 10px;
     }
 
-    #side-hr {
+    .side-hr {
         margin-left: 10px;
     }
 
@@ -527,6 +665,59 @@ p a {
         text-align: center;
     }
 
+    /* Contact Page  */
+
+    .mainForm {
+        margin-top: 40px;
+    }
+
+    /* Portfolio Page */
+
+    .port-div{
+        height: 1260px;
+        margin-top: 140px;
+    }
+
+    .portfolio-image{
+        float: none;
+        margin: 10px auto;
+        display: block;
+        width: auto;
+    }
+
+    #pong-img{
+        width: 225px;
+        height: 225px;
+    }
+
+    p a {
+        width: 225px;
+    }
+
+    #text-box1 {
+        left: 138px;
+        top: 160px;
+    }
+
+    #text-box2 {
+        left: 138px;
+        top: 162px;
+    }
+
+    #text-box3 {
+        left: 138px;
+        top: 162px;
+    }
+
+    #text-box4 {
+        left: 138px;
+        top: 162px;
+    }
+
+    #text-box5 {
+        left: 138px;
+        top: 162px;
+    }
 
     
 }

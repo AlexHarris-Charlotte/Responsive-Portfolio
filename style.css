@@ -595,7 +595,7 @@ p a {
 
     #header-bar {
         font-family: Georgia, 'Times New Roman', Times, serif;
-        width: 625px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -637,9 +637,10 @@ p a {
     }
 
     ul {
-    list-style: none;
-    float: none;
-    margin-top: 62px;
+        list-style: none;
+        float: none;
+        margin-top: 62px;
+        width: 100%;
     }
 
     li {
